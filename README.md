@@ -1,7 +1,7 @@
 ### My first project with Rocketseat Learning<h3>
 <br/>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/114286800/193920156-1029f962-6d6b-4502-b136-5693e6f2eafc.png" width="900px" />
+<img src="https://user-images.githubusercontent.com/114286800/194058585-42a2c408-f253-4cdc-8894-be899f9c763f.png" width="900px" />
 </div>
 <br/>
 <br/>
