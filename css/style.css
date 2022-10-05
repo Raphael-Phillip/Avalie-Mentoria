@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: #BFD7E4;
+}
+
+.page::before {
+  content: '';
+  background: #293241;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 465px;
+  z-index: -1;
+}
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageImg {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.pageWrapper h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: normal;
+  color: #FFF;
+  margin-top: 107px;
+}
+
+.pageWrapper P {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #FFF;
+}
+
+.pageDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F67669;
+  width: 750px;
+  height: 133px;
+  margin: 0 auto;
+  border-radius: 20px 20px 0 0;
+  margin-top: 27px;
+}
+
+.pageDetail h3 {
+  font-family: 'Staatliches', cursive;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  color: #FFF;
+}
+
+
+.pageForm {
+  display: flex;
+  justify-content: center;
+  width: 622px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.formWrapperPage {
+  background-color: #FFF;
+  width: 750px;
+  min-height: 1075px;
+  margin: 0 auto;
+  border-radius: 0 0 20px 20px;
+}
+
+.formWrapperPage fieldset {
+  border: none;
+}
+
+.user {
+  display: flex;
+  width: 750px;
+  margin: 31px 0 0 64px;
+  gap: 22px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4E4958;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.name .eventName {
+  width: 285px;
+  height: 55px;
+  background: #FAFAFC;
+  border-radius: 8px;
+  padding-left: 10px;
+  border: 1px solid #E6E6F0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.lastName .eventLastName {
+  width: 300px;
+  height: 55px;
+  background: #FAFAFC;
+  border-radius: 8px;
+  padding-left: 10px;
+  border: 1px solid #E6E6F0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.lastName {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.email {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 16px 0 0 64px;
+  width: 750px;
+}
+
+.email label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4E4958;
+}
+
+.email label span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #746f81;
+}
+
+.email .eventEmail {
+  width: 622px;
+  height: 55px;
+  background: #FAFAFC;
+  border-radius: 8px;
+  padding-left: 10px;
+  border: 1px solid #E6E6F0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.pageInfoMenor {
+  width: 722px;
+  margin-top: 33px;
+}
+
+.pageInfoMenor legend {
+  font-family: 'Staatliches', cursive;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  color: #253B51;
+  text-align: center;
+  width: 622px;
+  border-bottom: 1px solid #E6E6F0;
+  margin-bottom: 32px;
+}
+
+.selectMentor {
+  display: flex;
+  flex-direction: column;
+  margin-left: 64px;
+}
+
+
+.selectMentor label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4E4958;
+  margin-bottom: 8px;
+}
+
+#selectNameMentor {
+  width: 300px;
+  height: 55px;
+  background: #FAFAFC;
+  border-radius: 8px;
+  padding-left: 10px;
+  border: 1px solid #E6E6F0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+
+.textFeedback {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 64px;
+}
+
+.textFeedback label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4E4958;
+  margin-bottom: 8px;
+} 
+
+.textFeedback .boxText {
+  width: 608px;
+  height: 167px;
+  background: #FAFAFC;
+  border-radius: 8px;
+  padding-left: 10px;
+  border: 1px solid #E6E6F0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.checkAll {
+  display: flex;
+  align-items: center;
+  margin-left: 64px;
+}
+
+.checkAll label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4E4958;
+}
+
+
+.checkAll .eventCheck {
+  width: 24px;
+  height: 24px;
+  background: #FAFAFC;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  margin-right: 15px;
+}
+
+
+.scheduleMetor {
+  margin-top: 36px;
+}
+
+.scheduleMetor fieldset legend {
+  font-family: 'Staatliches', cursive;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  color: #253B51;
+  text-align: center;
+  width: 622px;
+  border-bottom: 1px solid #E6E6F0;
+  margin-bottom: 32px; 
+}
+
+
+.pageDate {
+  display: flex;
+  align-items: center;
+  width: 622px;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  margin-left: 64px;
+}
+
+.date label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4E4958;
+}
+
+.date .dateMentor {
+  width: 300px;
+  height: 55px;
+  background: #FAFAFC;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+
+.timeOf {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+}
+
+.timeOf label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4E4958;
+}
+
+.timeOf .timeOfMentor {
+  width: 100px;
+  height: 55px;
+  background: #FAFAFC;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.timeUntil {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+}
+
+.timeUntil label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4E4958;
+}
+
+.timeUntil .timeUntilMentor {
+  width: 100px;
+  height: 55px;
+  background: #FAFAFC;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.buttonSave {
+  width: 622px;
+  height: 51px;
+}
+
+.buttonSave .save {
+  width: 622px;
+  height: 51px;
+  margin: 66px 64px 66px 64px;
+  border-radius: 8px;
+  background: #F67669;
+  border: none;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFF;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.save:hover {
+  background: #f15442;
+}
